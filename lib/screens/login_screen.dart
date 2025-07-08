@@ -33,6 +33,9 @@ class CustomTextField extends StatelessWidget {
             width: 300,
             height: 50,
             child: TextField(
+              style: TextStyle(
+                fontWeight: FontWeight.w400
+              ),
               decoration: InputDecoration(
                 hintText: 'Input Email',
                 border: OutlineInputBorder(),
